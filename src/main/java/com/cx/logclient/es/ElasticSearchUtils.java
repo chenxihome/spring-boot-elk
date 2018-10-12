@@ -46,6 +46,8 @@ import java.util.Map;
 public class ElasticSearchUtils {
     private final static String COMMA = ",";
     private static PreBuiltXPackTransportClient client=null;
+    private final static String ipListStr = "xx.xx.xx.xx,xx.xx.xx.xx";
+
     /**
      * 获取es 客户端
      *
@@ -61,7 +63,7 @@ public class ElasticSearchUtils {
                         .build();
                 System.setProperty("es.set.netty.runtime.available.processors", "false");
                 client = new PreBuiltXPackTransportClient(settings);
-                for (String nodes : "10.113.31.159:9300,10.113.31.241:9300,10.113.31.235:9300".split(COMMA)) {
+                for (String nodes : ipListStr.split(COMMA)) {
                     String[] inetSocket = nodes.split(":");
                     String address = inetSocket[0];
                     Integer port = Integer.valueOf(inetSocket[1]);
