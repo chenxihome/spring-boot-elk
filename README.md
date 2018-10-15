@@ -5,7 +5,7 @@
 kafka消息中间件写入ElasticSearch中，可通过kibana进行日志的分析和查询
 ******************************************************************
 具体效果展示如下：
-![image](https://github.com/ButBueatiful/dotvim/raw/master/screenshots/vim-screenshot.jpg)
+![image](https://github.com/chenxihome/spring-boot-elk/blob/master/image/kibana.png)
 
 
 
