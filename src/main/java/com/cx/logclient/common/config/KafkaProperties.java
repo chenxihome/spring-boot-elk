@@ -1,4 +1,4 @@
-package com.cx.logclient.config;
+package com.cx.logclient.common.config;
 
 public interface KafkaProperties
 {

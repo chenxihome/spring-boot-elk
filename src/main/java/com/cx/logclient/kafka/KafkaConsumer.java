@@ -1,15 +1,13 @@
 package com.cx.logclient.kafka;
 
 
-import com.cx.logclient.config.KafkaProperties;
+import com.cx.logclient.common.config.KafkaProperties;
 import com.cx.logclient.service.LogManageService;
 import com.cx.logclient.util.SpringContextUtil;
 import kafka.consumer.ConsumerConfig;
 import kafka.consumer.ConsumerIterator;
 import kafka.consumer.KafkaStream;
 import kafka.javaapi.consumer.ConsumerConnector;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 
 import java.util.HashMap;
 import java.util.List;

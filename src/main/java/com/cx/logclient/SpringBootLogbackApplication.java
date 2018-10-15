@@ -1,6 +1,6 @@
 package com.cx.logclient;
 
-import com.cx.logclient.config.KafkaProperties;
+import com.cx.logclient.common.config.KafkaProperties;
 import com.cx.logclient.kafka.KafkaConsumer;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
