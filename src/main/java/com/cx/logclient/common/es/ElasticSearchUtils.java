@@ -46,7 +46,7 @@ import java.util.Map;
 public class ElasticSearchUtils {
     private final static String COMMA = ",";
     private static PreBuiltXPackTransportClient client=null;
-    private final static String ipListStr = "10.113.31.241:9300,10.113.31.259:9300,10.113.31.235:9300";
+    private final static String ipListStr = "xxxxxx";
     /**
      * 获取es 客户端
      *
