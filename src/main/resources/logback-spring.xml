@@ -22,7 +22,7 @@
     </appender>
 
     <!--输出到文件 es -->
-    <appender name="kafkaAppender" class="com.cx.logclient.logback.KafkaAppender">
+    <appender name="kafkaAppender" class="com.cx.log.logback.KafkaAppender">
         <!--<layout>-->
             <!--<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>-->
         <!--</layout>-->
