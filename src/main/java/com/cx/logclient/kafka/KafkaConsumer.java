@@ -17,7 +17,7 @@ import java.util.Map;
 import java.util.Properties;
 
 /**
- * @author leicui bourne_cui@163.com
+ * @author cx
  */
 public class KafkaConsumer extends Thread {
     private final ConsumerConnector consumer;

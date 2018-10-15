@@ -1,7 +1,7 @@
 package com.cx.logclient.es;
 
 /**
- * Created by tukun on 2017/12/6.
+ * Created by cx on 2017/12/6.
  */
 public enum MappingEnum {
     /**

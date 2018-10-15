@@ -4,7 +4,7 @@ import ch.qos.logback.classic.spi.ILoggingEvent;
 import com.cx.logclient.util.IpUtil;
 
 /**
- * @author: tukun
+ * @author: cx
  * @Description:
  * @Date: Created in 17:02 2018/9/14
  */

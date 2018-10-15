@@ -7,7 +7,7 @@ import com.cx.logclient.vo.LogMessage;
 import com.cx.logclient.vo.LogMessageBuilder;
 
 /**
- * @author: tukun
+ * @author: cx
  * @Description:
  * @Date: Created in 10:30 2018/9/14
 */

@@ -8,7 +8,7 @@ import java.io.IOException;
 import static org.elasticsearch.common.xcontent.XContentFactory.jsonBuilder;
 
 /**
- * Created by tukun on 2017/12/6.
+ * Created by cx on 2017/12/6.
  */
 @Slf4j
 public class MappingUtils {

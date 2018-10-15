@@ -12,7 +12,7 @@ import java.util.Map;
 /**
  * 获取springcontext
  *
- * @author zhongkewen
+ * @author cx
  */
 @Component
 public class SpringContextUtil implements ApplicationContextAware {

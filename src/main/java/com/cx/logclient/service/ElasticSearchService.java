@@ -3,7 +3,7 @@ package com.cx.logclient.service;
 import com.cx.logclient.vo.LogMessage;
 
 /**
- * @author: tukun
+ * @author: cx
  * @Description:
  * @Date: Created in 16:38 2018/10/10
  */

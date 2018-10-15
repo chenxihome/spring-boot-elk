@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 import java.util.Properties;
 
 /**
- * @author: tukun
+ * @author: cx
  * @Description:
  * @Date: Created in 11:44 2018/9/14
  */
